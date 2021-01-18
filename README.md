@@ -3,6 +3,12 @@
 ## -------INFO
 ```
 1. Program na II semestr
+ - Recap
+ - Programowanie (zasady, paradygmaty, algorytmy)
+ - PHP
+ - CMS
+ --------------------
+ - Frameworki i biblioteki
 2. HTML, CSS, JS
 3. GIT
 4. Hosting
@@ -12,7 +18,7 @@
 ### --------ZAD
 
 ```
-T31801 - Przygotować, zaprojektować, ostylować bazę wiedzy o SW.
+T31801 - Przygotować, zaprojektować, ostylować bazę wiedzy o SW z wyszukiwarką.
 
 T31802 - Przygotować projekt drużynowy z użyciem GIT
 
