@@ -21,6 +21,8 @@ T31802 - Przygotować projekt drużynowy z użyciem GIT
 ### --------Links
 https://github.com/T3iL/T318-Recap
 
+https://git-scm.com/downloads
+
 https://www.cdnpkg.com/font-awesome
 
 https://fontawesome.com/v4.7.0/get-started/
@@ -34,7 +36,7 @@ https://drive.google.com/drive/folders/1OqTcjwr_qAdTPO-dThxUOd3ooTTOlzgp?usp=sha
 
 https://www.w3.org | https://validator.w3.org | https://www.php.net/manual/en/
 ### --------JSON APIS
-https://randomuser.me/ | https://jsonplaceholder.typicode.com/ | 
+https://randomuser.me/ | https://jsonplaceholder.typicode.com/ | https://swapi.co | https://jokes.one/
 ### --------Repositiories
 https://www.w3schools.com | https://stackoverflow.com | https://css-tricks.com |
 ### --------On line editors
