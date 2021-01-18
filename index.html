@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="height=device-height, initial-scale=1.0">
+    <title>Test</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <style>
+        body{
+            text-align:center;
+            font-family: 'Roboto', sans-serif;
+        }
+        #container{
+            justify-content:center;
+            flex-wrap:wrap;
+            display:flex
+        }
+        .card{
+            padding:20px;
+            width:400px;
+            margin:10px;
+            background:rgb(209, 209, 209);
+            border:1px outset rgb(190, 187, 187);
+            border-radius:5px;
+        }
+        .name{
+            font-size:2em;
+            padding:30px 0;
+        }
+        .gender, .dob{
+            padding: 1em;
+        }
+        .img{
+            border:4px solid white;
+            border-radius:50%;
+        }
+    </style>
+</head>
+
+<body>
+<h1>Brand new User</h1>
+    <div id="container">
+
+    </div>
+
+<script>
+
+const users = {
+"results": [
+{
+"gender": "female",
+"name": {
+"title": "Mrs",
+"first": "تینا",
+"last": "كامياران"
+},
+"location": {
+"street": {
+"number": 7921,
+"name": "میدان امام حسین"
+},
+"city": "خوی",
+"state": "سمنان",
+"country": "Iran",
+"postcode": 40550,
+"coordinates": {
+"latitude": "27.4184",
+"longitude": "149.3518"
+},
+"timezone": {
+"offset": "+5:30",
+"description": "Bombay, Calcutta, Madras, New Delhi"
+}
+},
+"email": "tyn.kmyrn@example.com",
+"login": {
+"uuid": "48abca67-595e-42e7-b1bc-157eb02bc6ca",
+"username": "silverbird417",
+"password": "redwood",
+"salt": "Mu5j6C7f",
+"md5": "66aa8a00d90d0ee4dd8ba6cf75f76fd0",
+"sha1": "468c0c9a4623c84545c1a8e66ad78f75bfa03a00",
+"sha256": "4bf725c4bb76efd7c0179f98caa160909af622c610f5a978dd59f03bb844ac22"
+},
+"dob": {
+"date": "1970-09-20T07:37:24.855Z",
+"age": 51
+},
+"registered": {
+"date": "2018-03-29T00:11:28.705Z",
+"age": 3
+},
+"phone": "001-77486286",
+"cell": "0935-352-9428",
+"id": {
+"name": "",
+"value": null
+},
+"picture": {
+"large": "https://randomuser.me/api/portraits/women/68.jpg",
+"medium": "https://randomuser.me/api/portraits/med/women/68.jpg",
+"thumbnail": "https://randomuser.me/api/portraits/thumb/women/68.jpg"
+},
+"nat": "IR"
+},
+{
+"gender": "male",
+"name": {
+"title": "Mr",
+"first": "Aaron",
+"last": "Harris"
+},
+"location": {
+"street": {
+"number": 5277,
+"name": "Nelson Street"
+},
+"city": "Christchurch",
+"state": "Nelson",
+"country": "New Zealand",
+"postcode": 33659,
+"coordinates": {
+"latitude": "-51.1262",
+"longitude": "131.7050"
+},
+"timezone": {
+"offset": "+11:00",
+"description": "Magadan, Solomon Islands, New Caledonia"
+}
+},
+"email": "aaron.harris@example.com",
+"login": {
+"uuid": "a68684f7-4dd5-404f-8917-434ef81410db",
+"username": "tinypanda695",
+"password": "1969",
+"salt": "oq69Hesg",
+"md5": "8a315ccd8e68be290e19ad360878c23d",
+"sha1": "6fd2baf09f80205a49fa2c9fb46b9d569bf6bc94",
+"sha256": "67a53c6d79c1f2f72b175105b02b8271e03fea3c0ee19b05624c88ca1e3bda23"
+},
+"dob": {
+"date": "1984-08-09T02:43:05.994Z",
+"age": 37
+},
+"registered": {
+"date": "2011-07-02T19:46:52.008Z",
+"age": 10
+},
+"phone": "(897)-373-9066",
+"cell": "(221)-905-9792",
+"id": {
+"name": "",
+"value": null
+},
+"picture": {
+"large": "https://randomuser.me/api/portraits/men/9.jpg",
+"medium": "https://randomuser.me/api/portraits/med/men/9.jpg",
+"thumbnail": "https://randomuser.me/api/portraits/thumb/men/9.jpg"
+},
+"nat": "NZ"
+},
+{
+"gender": "male",
+"name": {
+"title": "Mr",
+"first": "Liam",
+"last": "Harcourt"
+},
+"location": {
+"street": {
+"number": 2929,
+"name": "Lake of Bays Road"
+},
+"city": "Lafontaine",
+"state": "Northwest Territories",
+"country": "Canada",
+"postcode": "Z3S 7B4",
+"coordinates": {
+"latitude": "29.1359",
+"longitude": "85.8822"
+},
+"timezone": {
+"offset": "+3:30",
+"description": "Tehran"
+}
+},
+"email": "liam.harcourt@example.com",
+"login": {
+"uuid": "81dfb5c4-f1aa-4332-a09f-bf3228694987",
+"username": "heavyrabbit966",
+"password": "yahoo",
+"salt": "SD27u4Jy",
+"md5": "0f07d3aae3b87cf9c20add6a0b15d2ca",
+"sha1": "07b6b2bfcff894f6863defd32d5ea7b51af04b61",
+"sha256": "5bd148edd3882472e731a31f748313c75a48831a09c88d61bac234f9a8b14d6e"
+},
+"dob": {
+"date": "1968-02-07T04:51:49.369Z",
+"age": 53
+},
+"registered": {
+"date": "2008-01-14T01:40:05.218Z",
+"age": 13
+},
+"phone": "166-795-5790",
+"cell": "825-347-2395",
+"id": {
+"name": "",
+"value": null
+},
+"picture": {
+"large": "https://randomuser.me/api/portraits/men/66.jpg",
+"medium": "https://randomuser.me/api/portraits/med/men/66.jpg",
+"thumbnail": "https://randomuser.me/api/portraits/thumb/men/66.jpg"
+},
+"nat": "CA"
+},
+{
+"gender": "male",
+"name": {
+"title": "Mr",
+"first": "Scott",
+"last": "Herrera"
+},
+"location": {
+"street": {
+"number": 8922,
+"name": "Bruce St"
+},
+"city": "Sydney",
+"state": "Australian Capital Territory",
+"country": "Australia",
+"postcode": 3139,
+"coordinates": {
+"latitude": "42.1245",
+"longitude": "77.2305"
+},
+"timezone": {
+"offset": "+9:00",
+"description": "Tokyo, Seoul, Osaka, Sapporo, Yakutsk"
+}
+},
+"email": "scott.herrera@example.com",
+"login": {
+"uuid": "7df5e96f-7cf6-45a3-aabe-88bf0d4957b3",
+"username": "heavylion491",
+"password": "tong",
+"salt": "lJwhofJ4",
+"md5": "df9fc61188f61ccc44d42344f91c8294",
+"sha1": "5ed7a01d9af1a486c0f63011bc81f1fd00253823",
+"sha256": "17d4005f79e1f4af1cd5da547115b5244a45cc371b5fae2baaef02e1ffab80a9"
+},
+"dob": {
+"date": "1989-09-26T17:21:52.768Z",
+"age": 32
+},
+"registered": {
+"date": "2011-02-14T07:09:38.294Z",
+"age": 10
+},
+"phone": "01-0354-3980",
+"cell": "0456-555-298",
+"id": {
+"name": "TFN",
+"value": "366839719"
+},
+"picture": {
+"large": "https://randomuser.me/api/portraits/men/36.jpg",
+"medium": "https://randomuser.me/api/portraits/med/men/36.jpg",
+"thumbnail": "https://randomuser.me/api/portraits/thumb/men/36.jpg"
+},
+"nat": "AU"
+},
+{
+"gender": "male",
+"name": {
+"title": "Monsieur",
+"first": "Andrew",
+"last": "Pierre"
+},
+"location": {
+"street": {
+"number": 7761,
+"name": "Rue des Abbesses"
+},
+"city": "Lugano",
+"state": "St. Gallen",
+"country": "Switzerland",
+"postcode": 4402,
+"coordinates": {
+"latitude": "-20.5863",
+"longitude": "156.8163"
+},
+"timezone": {
+"offset": "+3:00",
+"description": "Baghdad, Riyadh, Moscow, St. Petersburg"
+}
+},
+"email": "andrew.pierre@example.com",
+"login": {
+"uuid": "9f4bb060-7d6e-4e1c-9629-51319ee786d8",
+"username": "blackrabbit356",
+"password": "gasman",
+"salt": "RCds3sft",
+"md5": "6464d6fe3f16b46c9e6d90c4001db80c",
+"sha1": "7d961b5bd24e374309479834278a50b23e4fc450",
+"sha256": "4d2efedc0ce2acaaa53d987c0b6e050d8a24264a97e2fd8b1ba538a2fece8313"
+},
+"dob": {
+"date": "1986-10-29T02:21:53.894Z",
+"age": 35
+},
+"registered": {
+"date": "2016-03-22T01:15:49.074Z",
+"age": 5
+},
+"phone": "076 783 44 86",
+"cell": "076 319 48 95",
+"id": {
+"name": "AVS",
+"value": "756.4344.9952.93"
+},
+"picture": {
+"large": "https://randomuser.me/api/portraits/men/58.jpg",
+"medium": "https://randomuser.me/api/portraits/med/men/58.jpg",
+"thumbnail": "https://randomuser.me/api/portraits/thumb/men/58.jpg"
+},
+"nat": "CH"
+}
+],
+"info": {
+"seed": "809976ffff413c93",
+"results": 5,
+"page": 1,
+"version": "1.3"
+}
+}
+
+    const url = 'https://randomuser.me/api/?results=5';
+        users.results.forEach(user => wypisz(user))
+    ;
+    // fetch(url)
+    //     .then(response => response.json())
+    //     .then(json => wypisz(users))
+
+    function wypisz(json){
+        console.log(json)
+        const person = json;
+
+        const container = document.querySelector('#container');
+        const card = document.createElement('div');
+
+        card.classList.add('card')
+
+        const newGender = document.createElement('div')
+        newGender.classList.add('gender');
+        newGender.innerHTML = 'Gender: <strong>' + person.gender + '</strong>';
+
+        const newName = document.createElement('div')
+        newName.classList.add('name');
+        newName.textContent = `${person.name.title} ${person.name.first} ${person.name.last}`;
+
+        const newEmail = document.createElement('div')
+        newEmail.classList.add('email');
+        newEmail.textContent = 'Email: ' + person.email;
+
+        const newDob = document.createElement('div')
+        newDob.classList.add('dob');
+        newDob.innerHTML = '<Strong>Date of birth:</strong> ' + person.dob.date ;
+
+        const newPic = document.createElement('img')
+        newPic.classList.add('img');
+        newPic.src = person.picture.large;
+
+        const newLine = document.createElement('hr'); 
+
+        card.appendChild(newPic)
+        card.appendChild(newName)
+        card.appendChild(newLine)
+        card.appendChild(newGender)
+        card.appendChild(newEmail)
+        card.appendChild(newDob)
+
+            container.appendChild(card);
+    }
+
+</script>
+</body>
+
+</html>
