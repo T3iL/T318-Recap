@@ -6,6 +6,7 @@
 2. HTML, CSS, JS
 3. GIT
 4. Hosting
+5. E09-E14
 ```
 
 ### --------ZAD
