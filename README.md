@@ -11,6 +11,14 @@
  - Frameworki i biblioteki
 2. HTML, CSS, JS
 3. GIT
+ - git clone https://github.com/T3iL/T318-Recap . (sklonuj do aktualnego katlogu)
+ - zmiana 
+ - git add .                   (zapisz zmiany na stosie)
+ - git commit -m 'komentarz'
+ - git push
+ 
+ - git pull                    (pobierz zmiany)
+ 
 4. Hosting
 5. E09-E14
 ```
