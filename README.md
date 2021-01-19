@@ -7,6 +7,7 @@
  - Programowanie (zasady, paradygmaty, algorytmy)
  - PHP
  - CMS
+ 
 ----------------- program IV klasy --------------------
  - Frameworki i biblioteki
 2. HTML, CSS, JS
