@@ -5,7 +5,7 @@
 1. Program II semestru
  - Recap
  - Programowanie (zasady, paradygmaty, algorytmy)
- - PHP
+ - PHP + MySQLi
  - CMS
  
 ----------------- program IV klasy --------------------
