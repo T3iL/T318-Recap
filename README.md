@@ -1,7 +1,7 @@
 # (2021.01.18) T318-Recap
 
 ## -------INFO
-```
+
 1. Program na II semestr
  - Recap
  - Programowanie (zasady, paradygmaty, algorytmy)
@@ -10,20 +10,24 @@
  --------------------
  - Frameworki i biblioteki
 2. HTML, CSS, JS
-3. GIT
- - git clone https://github.com/T3iL/T318-Recap . (sklonuj do aktualnego katalogu, brak . utworzy katalog)
- - zmiana                                         (dokonaj zmiany)
- - git add .                                      (zapisz zmiany na stosie)
- - git commit -m 'komentarz'                      (zaptwierdź zmiany)
- - git push                                       (wyślij na serwer)
- 
+3. [GIT OD PODSTAW - tutorial dla początkujących](https://youtu.be/j-EhgAi-u-Y)
+```
+git clone https://github.com/T3iL/T318-Recap . (sklonuj do aktualnego katalogu, brak . utworzy katalog)
+```
+- zmiana                                         (dokonaj zmiany)
+```
+git add .                                      (zapisz zmiany na stosie)
+git commit -m 'komentarz'                      (zaptwierdź zmiany)
+git push                                       (wyślij na serwer)
+``` 
  -----------------pobieranie zmian--------------------
- - git pull                                       (pobierz zmiany)
- 
+```
+- git pull                                       (pobierz zmiany)
+```
  
 4. Hosting
 5. E09-E14
-```
+
 
 ### --------ZAD
 
