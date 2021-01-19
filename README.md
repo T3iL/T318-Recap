@@ -2,12 +2,12 @@
 
 ## -------INFO
 
-1. Program na II semestr
+1. Program II semestru
  - Recap
  - Programowanie (zasady, paradygmaty, algorytmy)
  - PHP
  - CMS
- --------------------
+----------------- program IV klasy --------------------
  - Frameworki i biblioteki
 2. HTML, CSS, JS
 3. [GIT OD PODSTAW - tutorial dla początkujących](https://youtu.be/j-EhgAi-u-Y)
