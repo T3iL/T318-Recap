@@ -42,6 +42,8 @@ T31802 - Przygotować projekt drużynowy z użyciem GIT
 ### --------Links
 https://github.com/T3iL/T318-Recap
 
+GOOGLE DRIVE: https://drive.google.com/drive/folders/1OqTcjwr_qAdTPO-dThxUOd3ooTTOlzgp?usp=sharing
+
 https://git-scm.com/downloads
 
 https://www.cdnpkg.com/font-awesome
@@ -55,8 +57,6 @@ https://icons.getbootstrap.com/
 ### TUTORIALS:
 (https://youtu.be/Xm4BObh4MhI)[12HR+ YouTube Coding Bootcamp 2021!]
 
-GOOGLE DRIVE: 
-https://drive.google.com/drive/folders/1OqTcjwr_qAdTPO-dThxUOd3ooTTOlzgp?usp=sharing
 
 https://www.w3.org | https://validator.w3.org | https://www.php.net/manual/en/
 ### --------JSON APIS
