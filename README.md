@@ -60,7 +60,7 @@ https://icons.getbootstrap.com/
 
 https://www.w3.org | https://validator.w3.org | https://www.php.net/manual/en/
 ### --------JSON APIS
-https://randomuser.me/ | https://jsonplaceholder.typicode.com/ | https://swapi.co | https://jokes.one/
+https://randomuser.me/ | https://jsonplaceholder.typicode.com/ | https://swapi.co | https://jokes.one/ | JSON Server
 ### --------Repositiories
 https://www.w3schools.com | https://stackoverflow.com | https://css-tricks.com |
 ### --------On line editors
